@@ -3,3 +3,38 @@
   margin: 0;
   box-sizing: border-box;
 }
+header{
+  display: flex;
+  justify-content: space-between;
+}
+.video{
+  z-index: -1;
+  object-fit: cover;
+  position: fixed;
+  background: linear-gradient(to black);
+}
+  ul{
+    list-style: none;
+    display: flex;
+  }
+  ul a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  .logo{
+    display: flex;
+    padding: 10px;
+  }
+.logo img{
+  height: 40px;
+  
+}
+.logo ul{
+  padding: 10px;
+
+}
+.itens ul img{
+  height: 50px;
+  padding: 2px;
+}

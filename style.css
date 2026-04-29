@@ -3,38 +3,38 @@
   margin: 0;
   box-sizing: border-box;
 }
-header{
-  display: flex;
-  justify-content: space-between;
-}
-.video{
+
+video{
   z-index: -1;
   object-fit: cover;
   position: fixed;
   background: linear-gradient(to black);
 }
-  ul{
-    list-style: none;
-    display: flex;
-  }
-  ul a{
-    padding: 15px;
-    color: white;
-    text-decoration: none;
-  }
-  .logo{
-    display: flex;
-    padding: 10px;
-  }
-.logo img{
-  height: 40px;
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+ul li{
+  list-style: none;
   
 }
-.logo ul{
-  padding: 10px;
-
+ul{
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
-.itens ul img{
+ul a{
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  
+}
+ul li img{
   height: 50px;
-  padding: 2px;
+}
+.principal img{
+  height: 300px;
+  width: 300px;
 }

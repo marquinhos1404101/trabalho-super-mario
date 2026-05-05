@@ -9,12 +9,14 @@ video{
   object-fit: cover;
   position: fixed;
   background: linear-gradient(to black);
+  height: 100vh;
 }
 header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  padding: 20px;
 }
 ul li{
   list-style: none;
@@ -37,4 +39,47 @@ ul li img{
 .principal img{
   height: 300px;
   width: 300px;
+}
+main{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+margin-top: 80px;
+  gap: 400px ;
+  padding: 20px;
+}
+main p{
+  color: white;
+}
+.red{
+  background-color: red; 
+  padding: 25px;
+  border-radius: 15px 2px 15px 2px;
+  border: 2px solid red;
+}
+.green{
+  border: 2px solid ;
+  border-color: green;
+  padding: 25px;
+  border-radius: 15px 2px 15px 2px;
+
+}
+.butão{ 
+margin-top: 40px;
+display: flex;
+gap: 20px;
+}
+.butão a{
+  text-decoration: none;
+  color: white;
+}
+.green:hover{
+  background-color: green;
+}
+.red:hover{
+  background-color: transparent;
+  border: 2px solid red;
+}
+.personagens{
+  height: 600px;
 }
